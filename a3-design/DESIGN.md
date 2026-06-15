@@ -197,28 +197,184 @@ Line-height and letter-spacing are not declared for these spec cards → `needs-
 
 ## 7. Component Guidelines
 
-This manual documents **DataViz patterns**, not an interactive UI kit. Items not present are `needs-review`.
+The analyzed manual documents primarily **DataViz and dashboard patterns**, not a complete interactive UI kit. Components directly supported by the manual should be treated as documented. General application components that are not present in node `2:21` must remain marked as `needs-review`.
 
-### Buttons
-`needs-review` — no button component in node 2:21.
+### 7.1 Documented DataViz Components
 
-### Cards
-KPI cards are documented: title (Segoe UI Light, Bold, 9px) and value (DIN, Normal, 17px). Interaction states `needs-review`.
+#### KPI Cards
 
-### Forms
-`needs-review`.
+KPI cards are documented as dashboard components.
 
-### Tables
-Documented typography: title 14px Bold, column header 8px Semibold, value 8px Normal, total 8px Bold (all Segoe UI). Row/zebra/border styling `needs-review`.
+Use:
 
-### Navigation
-`needs-review`.
+- title: Segoe UI Light, Bold, 9px;
+- value: DIN, Normal, 17px;
+- spacing based on the 8px system;
+- semantic colors only when the number has meaning such as positive, negative or warning.
 
-### Badges and Tags
-`needs-review`.
+Guidelines:
 
-### Modals and Overlays
-`needs-review`.
+- keep the title short;
+- make the value visually dominant;
+- avoid excessive labels inside the card;
+- use tooltips or supporting context when the metric needs explanation.
+
+Needs review:
+
+- card padding;
+- border radius;
+- shadow/elevation;
+- hover/focus state;
+- loading, empty and error states.
+
+#### Tables
+
+Tables are documented through typography rules.
+
+Use:
+
+- table title: Segoe UI, Bold, 14px;
+- column header: Segoe UI, Semibold, 8px;
+- table value: Segoe UI, Normal, 8px;
+- total row: Segoe UI, Bold, 8px.
+
+Guidelines:
+
+- keep headers concise;
+- align numeric values consistently;
+- use neutral dividers;
+- use semantic colors only for meaningful status or variance;
+- avoid excessive color noise.
+
+Needs review:
+
+- row height;
+- zebra style;
+- borders;
+- selected state;
+- hover state;
+- empty state.
+
+#### Charts
+
+The manual documents chart patterns and color palettes.
+
+Supported chart categories include:
+
+- line charts;
+- column charts;
+- stacked columns;
+- combo charts;
+- bar charts;
+- positive/negative charts;
+- pie and donut charts;
+- scatter charts;
+- heatmaps;
+- Sankey charts;
+- maps.
+
+Guidelines:
+
+- use the Power BI categorical palette in the documented order;
+- reserve semantic colors for positive, negative and warning meanings;
+- use the divergent scale for heatmaps and comparisons;
+- reduce labels when they create visual clutter;
+- prefer tooltips for secondary details.
+
+Needs review:
+
+- tooltip design;
+- filters and slicers;
+- chart container states;
+- responsive behavior.
+
+### 7.2 General UI Components Not Defined in the Manual
+
+The following components are not defined in node `2:21` and must remain `needs-review` until validated by design/product:
+
+#### Buttons
+
+Status: `needs-review`.
+
+Missing:
+
+- primary button;
+- secondary button;
+- ghost button;
+- destructive button;
+- hover/focus/disabled/loading states.
+
+Temporary implementation rule: Do not create button styles from scratch using arbitrary colors. Reuse existing project components when available. If a new button is required, propose it separately and document the decision.
+
+#### Forms
+
+Status: `needs-review`.
+
+Missing:
+
+- inputs;
+- selects;
+- checkboxes;
+- radio buttons;
+- validation messages;
+- helper text;
+- error states.
+
+Temporary implementation rule: Use existing project form components when available and apply A3Data typography, spacing and semantic colors conservatively.
+
+#### Navigation
+
+Status: `needs-review`.
+
+Missing:
+
+- sidebar;
+- topbar;
+- breadcrumbs;
+- tabs;
+- menu items;
+- active state;
+- collapsed state.
+
+Temporary implementation rule: Do not infer a navigation system from the DataViz manual. Use existing product patterns or request validation.
+
+#### Badges and Tags
+
+Status: `needs-review`.
+
+Missing:
+
+- status badge;
+- category tag;
+- semantic badge;
+- size variants.
+
+Temporary implementation rule: Use semantic colors only when the badge communicates meaning such as positive, negative, warning or neutral status.
+
+#### Modals and Overlays
+
+Status: `needs-review`.
+
+Missing:
+
+- modal layout;
+- overlay color;
+- close action;
+- focus trap;
+- confirm/cancel buttons;
+- responsive behavior.
+
+Temporary implementation rule: Use existing project modal patterns when available and preserve accessibility requirements.
+
+### 7.3 Implementation Rule for AI Agents
+
+When implementing UI from this design system:
+
+1. Use documented DataViz components directly when the task involves dashboards, charts, KPI cards or tables.
+2. Treat general application components as `needs-review`.
+3. Do not invent new visual patterns silently.
+4. If a component is missing, report the gap and suggest a minimal proposal before implementation.
+5. Prefer existing project components over creating new ones.
 
 ## 8. Interface States
 
