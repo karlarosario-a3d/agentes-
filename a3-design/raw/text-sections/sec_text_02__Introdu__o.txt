@@ -1,0 +1,10 @@
+﻿Software Autônomo
+Age de forma independente sem intervenção humana direta
+Introdução
+Este manual tem como objetivo auxiliar os analistas a criar visualizações de dados mais elaboradas em dashboards, levando em consideração diversos elementos de design, como cores, tipografia e ícones. Esses aspectos desempenham um papel fundamental na forma como as informações são comunicadas aos usuários e na criação de uma experiência visualmente atraente e eficaz.
+
+A visualização eficaz dos dados possui vários benefícios, simplificando informações complexas e facilitando a compreensão dos padrões, tendências e relações entre os dados. Ao apresentar os dados de forma visualmente atraente, as visualizações capturam a atenção do público e transmitem informações de maneira mais memorável e envolvente.
+02
+Introdução
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.

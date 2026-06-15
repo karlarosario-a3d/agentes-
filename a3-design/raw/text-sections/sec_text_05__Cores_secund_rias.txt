@@ -1,0 +1,69 @@
+﻿LIGHT
+DARK
+ST 100
+#FFFEF5
+ST 200
+#FFFDE0
+ST 300
+#FFFBC2
+ST 400
+#FFF899
+ST 500
+#FFF570
+ST 600
+#FFDD00
+ST 700
+#FFCC00
+ST 800
+#FFBB00
+ST 900
+#FFAA00
+Summer
+Time
+#FFEE00
+AV 100
+#faf7fd
+AV 200
+#f2edfa
+AV 300
+#e8def6
+AV 400
+#d6c4ee
+AV 500
+#bd9ee2
+AV 600
+#a278d4
+AV 700
+#8c5bc2
+AV 800
+#643e8b
+AV 900
+#361b50
+Amethyst Velvet
+#7B4AAF
+SF 100
+#dff4ff
+SF 200
+#b8ecff
+SF 300
+#78deff
+SF 400
+#06b8f1
+SF 500
+#0094ce
+SF 600
+#0077a7
+SF 700
+#02648a
+SF 800
+#085272
+SF 900
+#06344b
+Sky
+Frost
+#39d0ff
+Cores secundárias
+05
+Cores Secundárias
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.

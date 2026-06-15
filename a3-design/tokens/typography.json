@@ -1,0 +1,39 @@
+{
+  "source": "Figma REST API",
+  "endpoint": "GET /v1/files/LmV1BuT3zPufCKMOoCsbiM/nodes?ids=2:21",
+  "file_key": "LmV1BuT3zPufCKMOoCsbiM",
+  "node_id": "2:21",
+  "extracted_at": "2026-06-15",
+  "notes": "Typography is documented in section 08 (TIPOGRAFIA) for the Power BI 'Padrão do Power BI' theme. Sizes/weights below are the values written in the manual. Line-heights and letter-spacing were not declared for these spec cards and are marked needs-review.",
+  "tokens": {
+    "font_family": {
+      "primary": { "value": "Segoe UI", "usage": "Default UI/text font (titles, subtitles, legends, tables)", "status": "ok" },
+      "primary_light": { "value": "Segoe UI Light", "usage": "Card titles", "status": "ok" },
+      "data_labels": { "value": "DIN", "usage": "Data labels and card values; chosen for legibility in data visualization", "status": "ok" }
+    },
+    "roles": {
+      "dashboard_title": { "family": "Segoe UI", "weight": "Bold", "size_px": 11, "line_height": "needs-review", "status": "ok" },
+      "card_title": { "family": "Segoe UI Light", "weight": "Bold", "size_px": 9, "line_height": "needs-review", "status": "ok" },
+      "card_value": { "family": "DIN", "weight": "Normal", "size_px": 17, "line_height": "needs-review", "status": "ok" },
+      "chart_title": { "family": "Segoe UI", "weight": "Bold", "size_px": 10, "line_height": "needs-review", "status": "ok" },
+      "chart_categories": { "family": "Segoe UI", "weight": "Normal", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "chart_legend": { "family": "Segoe UI", "weight": "Normal", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "axis_x": { "family": "Segoe UI", "weight": "Normal", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "axis_y": { "family": "Segoe UI", "weight": "Normal", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "data_label": { "family": "DIN", "weight": "Normal", "size_px": 9, "line_height": "needs-review", "status": "ok" },
+      "table_title": { "family": "Segoe UI", "weight": "Bold", "size_px": 14, "line_height": "needs-review", "status": "ok" },
+      "table_column_header": { "family": "Segoe UI", "weight": "Semibold", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "table_value": { "family": "Segoe UI", "weight": "Normal", "size_px": 8, "line_height": "needs-review", "status": "ok" },
+      "table_total": { "family": "Segoe UI", "weight": "Bold", "size_px": 8, "line_height": "needs-review", "status": "ok" }
+    },
+    "weights_observed": ["Normal", "Semibold", "Bold (Negrito)"],
+    "text_color": {
+      "on_light_background": { "value": "#00083D", "status": "ok" },
+      "on_dark_background": { "value": "#F5F7FF", "status": "ok" }
+    },
+    "general_ui_typography": {
+      "status": "needs-review",
+      "note": "The manual focuses on Power BI / DataViz typography. A general web/product type scale (H1-H6, body, caption) is not defined in node 2:21. Define separately or validate with the brand team before implementing non-Power BI interfaces."
+    }
+  }
+}

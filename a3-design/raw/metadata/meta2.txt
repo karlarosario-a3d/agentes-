@@ -1,0 +1,295 @@
+﻿=== response keys ===
+document, components, componentSets, schemaVersion, styles
+=== STYLES ===
+2007:77241 | FILL | Buora/NB 100
+2007:77242 | FILL | Buora/Navy Blue
+2025:808 | FILL | A3Data/Summer Time
+2005:490 | FILL | A3Data/Deep Sea
+2025:809 | FILL | A3Data/ST 100
+2025:810 | FILL | A3Data/ST 200
+2025:811 | FILL | A3Data/ST 300
+2025:812 | FILL | A3Data/ST 400
+2025:813 | FILL | A3Data/ST 500
+2025:814 | FILL | A3Data/ST 600
+2025:815 | FILL | A3Data/ST 700
+2025:816 | FILL | A3Data/ST 800
+2025:817 | FILL | A3Data/ST 900
+2026:818 | FILL | A3Data/Amethyst Velvet
+2026:819 | FILL | A3Data/AV 100
+2026:820 | FILL | A3Data/AV 200
+2026:821 | FILL | A3Data/AV 300
+2026:822 | FILL | A3Data/AV 400
+2026:823 | FILL | A3Data/AV 500
+2026:824 | FILL | A3Data/Av 600
+2026:825 | FILL | A3Data/AV 700
+2026:826 | FILL | A3Data/Av 800
+2026:827 | FILL | A3Data/AV 900
+2008:1961 | FILL | A3Data/DS 100
+2027:822 | FILL | A3Data/Sky Frost
+2027:823 | FILL | A3Data/SF 100
+2027:824 | FILL | A3Data/SF 200
+2027:825 | FILL | A3Data/SF 300
+2027:826 | FILL | A3Data/SF 400
+2027:827 | FILL | A3Data/SF 500
+2027:829 | FILL | A3Data/SF 600
+2027:828 | FILL | A3Data/SF 700
+2027:830 | FILL | A3Data/SF 800
+2027:831 | FILL | A3Data/SF 900
+2010:2293 | FILL | A3Data/TB 200
+2005:1144 | FILL | A3Data/Off-White
+2005:489 | FILL | A3Data/Preto
+2028:954 | FILL | A3Data/Gray 100
+2028:955 | FILL | A3Data/Gray 200
+2028:956 | FILL | A3Data/Gray 300
+2028:957 | FILL | A3Data/Gray 400
+2028:958 | FILL | A3Data/Gray 500
+2028:959 | FILL | A3Data/Gray 600
+2028:960 | FILL | A3Data/Gray 700
+2028:961 | FILL | A3Data/Gray 800
+2028:962 | FILL | A3Data/Gray 900
+2028:988 | FILL | A3Data/Negativo
+2008:1704 | FILL | A3Data/Branco
+2028:987 | FILL | A3Data/NTV Light
+2028:989 | FILL | A3Data/NTV Dark
+2028:1001 | FILL | A3Data/Positivo
+2014:2366 | FILL | A3Data/DS 900
+2028:986 | FILL | A3Data/PTV Ligth
+2028:1002 | FILL | A3Data/PTV Dark
+2028:1014 | FILL | A3Data/Atenção
+2028:1016 | FILL | A3Data/ATC Light
+2028:1015 | FILL | A3Data/ATC Dark
+2014:2333 | FILL | A3Data/DS 700
+2011:2314 | FILL | A3Data/DS 500
+2005:491 | FILL | A3Data/Tech Blue
+2014:2367 | FILL | A3Data/TB 300
+2010:2143 | FILL | A3Data/Pink Nic
+2015:2409 | FILL | A3Data/PN 400
+2011:2311 | FILL | A3Data/DS200
+2011:2312 | FILL | A3Data/DS 300
+2011:2313 | FILL | A3Data/DS 400
+2011:2316 | FILL | A3Data/DS 600
+2014:2332 | FILL | A3Data/DS 800
+2008:2072 | FILL | A3Data/TB 100
+2014:2368 | FILL | A3Data/TB 400
+2014:2369 | FILL | A3Data/TB 500
+2014:2370 | FILL | A3Data/TB 600
+2014:2371 | FILL | A3Data/TB 700
+2014:2372 | FILL | A3Data/TB 800
+2014:2373 | FILL | A3Data/TB 900
+2015:2406 | FILL | A3Data/PN 100
+2015:2407 | FILL | A3Data/PN 200
+2015:2408 | FILL | A3Data/PN 300
+2015:2410 | FILL | A3Data/PN 500
+2015:2411 | FILL | A3Data/PN 600
+2015:2412 | FILL | A3Data/PN 700
+2015:2413 | FILL | A3Data/PN 800
+347:1117 | TEXT | Título Gráficos
+2:5176 | FILL | Azul 1.1
+2:5169 | FILL | Azul 1
+2:5171 | FILL | Branco
+2:5175 | FILL | light/文字or线85
+2008:1835 | FILL | Cores Buora/Funky Green Buora
+2005:494 | FILL | Rosa A3Data
+=== COMPONENT SETS ===
+2007:76162 | EyeClosed
+2007:76215 | EyeSlash
+2007:76266 | Eyedropper
+2007:76304 | EyedropperSample
+2007:76348 | FlipHorizontal
+2007:76386 | FlipVertical
+2007:76424 | Gradient
+2007:76502 | GridFour
+2007:76545 | GridNine
+2007:76598 | Hexagon
+2007:76631 | Highlighter
+2007:76674 | HighlighterCircle
+2007:76717 | IntersectThree
+2007:76762 | Lasso
+2007:76802 | Layout
+2007:76845 | LineSegment
+2007:76889 | LineSegments
+2007:76955 | LineVertical
+2007:76988 | Notches
+2007:77025 | Octagon
+2007:77058 | PaintBrush
+2007:77101 | PaintBrushBroad
+2007:77144 | PaintBrushHousehold
+2007:77192 | PaintBucket
+2050:938 | AddressBook
+2050:1005 | AddressBookTabs
+2050:1072 | Broadcast
+2050:1133 | CellTower
+2050:1194 | Chat
+2050:1285 | ChatDots
+2050:1339 | Cloud
+2050:1376 | CloudFog
+2050:1431 | CloudLightning
+2050:1474 | CloudMoon
+2050:1517 | CloudRain
+2050:1566 | CloudSun
+2050:1633 | Envelope
+2050:1688 | EnvelopeSimpleOpen
+2050:1731 | Export
+2050:1780 | MegaphoneSimple
+2050:1823 | PaperPlaneRight
+2050:1866 | Phone
+2050:1903 | Share
+2050:1952 | ShareNetwork
+2050:2014 | ThumbsDown
+2050:2057 | ThumbsUp
+2050:2100 | Taxi
+2050:2173 | SteeringWheel
+2050:2234 | RocketLaunch
+2050:2291 | NavigationArrow
+2050:2328 | MapTrifold
+2050:2377 | MapPinPlus
+2050:2423 | MapPin
+2050:2464 | House
+2050:2500 | Hospital
+2050:2561 | GlobeSimple
+2050:2607 | AirplaneTilt
+2050:2644 | AirTrafficControl
+2050:2705 | Article
+2050:2760 | Camera
+2050:2803 | ClosedCaptioning
+2050:2852 | Ear
+2050:2895 | FastForward
+2050:2939 | Headphones
+2050:2977 | Microphone
+2050:3026 | NewspaperClipping
+2050:3081 | Pause
+2050:3125 | Play
+2050:3162 | ShuffleAngular
+2050:3223 | VideoCamera
+2050:3266 | CalendarBlank
+2050:3321 | CalendarCheck
+2050:3382 | CalendarX
+2050:3449 | Clock
+2050:3492 | ClockClockwise
+2050:3541 | ClockCountdown
+2050:3601 | Confetti
+2050:3675 | Heart
+2050:3712 | Stack
+2050:3765 | Ambulance
+2050:3844 | Barbell
+2050:3918 | Bed
+2050:3973 | FirstAid
+2050:4010 | FirstAidKit
+2050:4065 | HandHeart
+2050:4115 | Heartbeat
+2050:4158 | Stethoscope
+2050:4212 | DesktopTower
+2050:4285 | Devices
+2050:4340 | HandTap
+2050:4383 | Lightbulb
+2050:4432 | Lightning
+2050:4469 | LinkSimple
+2050:4518 | ListMagnifyingGlass
+2050:4579 | MagnifyingGlass
+2050:4622 | Monitor
+2050:4666 | Network
+2050:4741 | Plug
+2050:4802 | Speedometer
+2050:4851 | UploadSimple
+2050:4900 | Vibrate
+2050:4963 | File
+2050:5006 | FileImage
+2050:5056 | FileMagnifyingGlass
+2050:5111 | FilePlus
+2050:5166 | FileText
+2050:5221 | FloppyDisk
+2050:5270 | Folder
+2050:5313 | NotePencil
+2050:5362 | Paperclip
+2050:5399 | Printer
+2050:5454 | PushPinSimple
+2050:5510 | Trash
+2050:5571 | BagSimple
+2050:5614 | Coins
+2050:5688 | CurrencyCircleDollar
+2050:5743 | Factory
+2050:5804 | Gift
+2050:5865 | HandCoins
+2050:5921 | Handbag
+2050:5964 | MoneyWavy
+2050:6019 | Package
+2050:6074 | Seatbelt
+2050:6130 | ShoppingCart
+2050:6185 | TipJar
+2050:6257 | ArrowBendDoubleUpLeft
+2050:6306 | ArrowBendDoubleUpRight
+2050:6355 | ArrowBendDownLeft
+2050:6398 | ArrowBendDownRight
+2050:6441 | ArrowCircleDown
+2050:6490 | ArrowCircleLeft
+2050:6539 | ArrowCircleRight
+2050:6588 | ArrowFatLeft
+2050:6625 | ArrowFatRight
+2050:6662 | ArrowLeft
+2050:6705 | ArrowRight
+2050:6748 | ArrowsClockwise
+2050:6803 | HandArrowUp
+2050:6858 | Handshake
+2050:6925 | Smiley
+2050:6980 | SmileyMeh
+2050:7035 | SmileySad
+2050:7090 | UserCircle
+2050:7190 | User
+2050:7141 | UserCheck
+2050:7233 | UserMinus
+2050:7282 | Users
+2050:7337 | Key
+2050:7382 | SealWarning
+2050:7431 | SealQuestion
+2050:7480 | ShieldCheck
+2050:7523 | Shield
+2050:7560 | ShieldWarning
+2050:7609 | Warning
+2050:7658 | BookBookmark
+2050:7707 | BookOpen
+2050:7750 | Certificate
+2050:7811 | GraduationCap
+2050:7860 | Student
+2:5146 | 热力图-item
+=== COMPONENTS (count) ===
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  LOGO - A3DATA
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular
+  Format=Stroke, Weight=Regular

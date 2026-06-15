@@ -1,0 +1,14 @@
+﻿=== TOP CHILDREN of Manual de Identidade ===
+FRAME | 05. Cores secundárias | id=2008:1349 | kids=7
+FRAME | 06. Cores por tema | id=2027:832 | kids=5
+FRAME | 07. Personalização BI | id=2031:1723 | kids=5
+FRAME | 04. Cores principais | id=2015:2415 | kids=7
+FRAME | 08. TIPOGRAFIA | id=2008:1705 | kids=5
+FRAME | 09. Iconografia | id=2049:792 | kids=5
+FRAME | 10. Exemplos de gráficos | id=2059:1414 | kids=4
+FRAME | 10. Espaçamento | id=2367:1405 | kids=9
+FRAME | 11. Exemplos de gráficos | id=2059:2955 | kids=4
+FRAME | 12. Exemplos de gráficos | id=2060:1380 | kids=4
+FRAME | 03. Logotipo | id=2008:1836 | kids=13
+FRAME | 02. Introdução | id=2008:1914 | kids=6
+FRAME | 01. Capa-manual | id=2008:1984 | kids=5

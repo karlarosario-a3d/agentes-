@@ -1,0 +1,75 @@
+﻿Títulos, subtítulos, legendas e tabelas
+A fonte padrão usada no tema "Padrão do Power BI" é a "Segoe UI". A Segoe UI é uma fonte sans-serif moderna e legível, amplamente utilizada pela Microsoft em seus produtos e interfaces de usuário. 
+
+Essa escolha de fonte busca oferecer uma aparência limpa e profissional aos visuais do Power BI.
+Rótulos
+Para rótulos de dados no Power BI, é recomendado selecionar a fonte "DIN". Essa escolha é baseada nas características da fonte, que oferece excelente legibilidade em visualização de dados. 
+
+A fonte 'DIN' é conhecida por sua versatilidade e é capaz de destacar informações importantes de forma clara e eficaz, contribuindo para a compreensão dos dados apresentados.
+TIPOGRAFIA
+PADRÃO
+08
+Tipografia
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.
+tÍTULOS
+Título 
+Dashboard
+Family: Segoe Ui 
+Peso: Negrito
+Tamanho: 11px
+CARTÕES
+Título
+Cartão
+Family: Segoe Ui Light
+Peso: Negrito
+Tamanho: 9px
+Valor do 
+CARTÃO
+Family: DIN 
+Peso: Normal
+Tamanho: 17px
+Gráficos
+Título 
+Gráfico
+Family: Segoe Ui 
+Peso: Negrito
+Tamanho: 10px
+Categorias
+Family: Segoe Ui 
+Peso: Normal
+Tamanho: 8px
+Legendas
+Family: Segoe Ui 
+Peso: Normal
+Tamanho: 8px
+Eixo X
+Family: Segoe Ui 
+Peso: Normal
+Tamanho: 8px
+Eixo Y
+Family: Segoe Ui 
+Peso: Normal
+Tamanho: 8px
+Rótulos
+Family: DIN 
+Peso: Normal
+Tamanho: 9px
+TABELAS
+Título 
+Tabela
+Family: Segoe Ui 
+Peso: Negrito
+Tamanho: 14px
+Cabeçalho da Coluna
+Family: Segoe Ui 
+Peso: Semibold
+Tamanho: 8px
+Valores
+Family: Segoe Ui 
+Peso: Normal
+Tamanho: 8px
+Total
+Family: Segoe Ui 
+Peso: Negrito
+Tamanho: 8px

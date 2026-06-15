@@ -1,0 +1,6 @@
+﻿Manual de Visualização de dados
+Diretrizes para a criação de dashboards e Dataviz para a A3DATA
+01
+Capa
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.

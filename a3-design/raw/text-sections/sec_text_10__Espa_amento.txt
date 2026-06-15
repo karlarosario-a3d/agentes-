@@ -1,0 +1,13 @@
+﻿Espaçamento
+13
+Espaçamento
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.
+Sobre o espaçamento
+O espaçamento é de extrema importância para uma boa padronização visual e melhorar a experiência do usuário ao visualizar os dados. 
+
+Por favor siga as medidas de acordo com a legenda abaixo. Se precisar adaptar alguma medida lembre-se de sempre ser uma medida múltiplo de 8.
+Legenda
+24 px
+16 px
+8 px

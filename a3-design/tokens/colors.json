@@ -1,0 +1,162 @@
+{
+  "source": "Figma REST API",
+  "endpoint": "GET /v1/files/LmV1BuT3zPufCKMOoCsbiM/nodes?ids=2:21",
+  "file_key": "LmV1BuT3zPufCKMOoCsbiM",
+  "node_id": "2:21",
+  "node_name": "Manual de Identidade",
+  "extracted_at": "2026-06-15",
+  "notes": "Hex values were read from the manual's color sections (04, 05, 06, 07) and cross-checked with the Figma FILL style names (A3Data/...). Names like DS/TB/PN/ST/AV/SF are the official token families published in the file.",
+  "tokens": {
+    "primary": {
+      "deep_sea": {
+        "base": { "value": "#001863", "figma_style": "A3Data/Deep Sea", "usage": "Institutional primary / dark background base", "status": "ok" },
+        "scale": {
+          "100": { "value": "#F5F7FF", "figma_style": "A3Data/DS 100", "status": "ok" },
+          "200": { "value": "#E0E4FF", "figma_style": "A3Data/DS200", "status": "ok" },
+          "300": { "value": "#ADBEFF", "figma_style": "A3Data/DS 300", "status": "ok" },
+          "400": { "value": "#7F97F5", "figma_style": "A3Data/DS 400", "status": "ok" },
+          "500": { "value": "#516EE0", "figma_style": "A3Data/DS 500", "status": "ok" },
+          "600": { "value": "#2549B8", "figma_style": "A3Data/DS 600", "status": "ok" },
+          "700": { "value": "#00083D", "figma_style": "A3Data/DS 700", "status": "ok" },
+          "800": { "value": "#000029", "figma_style": "A3Data/DS 800", "status": "ok" },
+          "900": { "value": "#6EC400", "figma_style": "A3Data/DS 900", "status": "needs-review", "note": "Green value inside a navy 'Deep Sea' scale. Likely a labeling error in the manual; confirm intended hex." }
+        }
+      },
+      "tech_blue": {
+        "base": { "value": "#0033FF", "figma_style": "A3Data/Tech Blue", "usage": "Primary accent blue", "status": "ok" },
+        "scale": {
+          "100": { "value": "#F5FAFF", "figma_style": "A3Data/TB 100", "status": "ok" },
+          "200": { "value": "#E0EEFF", "figma_style": "A3Data/TB 200", "status": "ok" },
+          "300": { "value": "#ADD3FF", "figma_style": "A3Data/TB 300", "status": "ok" },
+          "400": { "value": "#85B6FF", "figma_style": "A3Data/TB 400", "status": "ok" },
+          "500": { "value": "#516EE0", "figma_style": "A3Data/TB 500", "status": "needs-review", "note": "Identical to DS 500 (#516EE0). Confirm whether intentional or a duplicate." },
+          "600": { "value": "#3165F5", "figma_style": "A3Data/TB 600", "status": "ok" },
+          "700": { "value": "#001FEB", "figma_style": "A3Data/TB 700", "status": "ok" },
+          "800": { "value": "#10329F", "figma_style": "A3Data/TB 800", "status": "ok" },
+          "900": { "value": "#0A1C5C", "figma_style": "A3Data/TB 900", "status": "ok" }
+        }
+      },
+      "pink_nic": {
+        "base": { "value": "#F53199", "figma_style": "A3Data/Pink Nic", "usage": "Primary accent magenta/pink", "status": "ok" },
+        "scale": {
+          "100": { "value": "#FDF5FF", "figma_style": "A3Data/PN 100", "status": "ok" },
+          "200": { "value": "#FFEBF6", "figma_style": "A3Data/PN 200", "status": "ok" },
+          "300": { "value": "#FFD6EC", "figma_style": "A3Data/PN 300", "status": "ok" },
+          "400": { "value": "#FFADD9", "figma_style": "A3Data/PN 400", "status": "ok" },
+          "500": { "value": "#FF85C6", "figma_style": "A3Data/PN 500", "status": "ok" },
+          "600": { "value": "#FF5CB3", "figma_style": "A3Data/PN 600", "status": "ok" },
+          "700": { "value": "#E01B85", "figma_style": "A3Data/PN 700", "status": "ok" },
+          "800": { "value": "#B80E74", "figma_style": "A3Data/PN 800", "status": "ok" },
+          "900": { "value": "#AB0D6C", "figma_style": "A3Data/PN 900", "status": "ok" }
+        }
+      }
+    },
+    "secondary": {
+      "summer_time": {
+        "base": { "value": "#FFEE00", "figma_style": "A3Data/Summer Time", "usage": "Secondary accent yellow", "status": "ok" },
+        "scale": {
+          "100": { "value": "#FFFEF5", "status": "ok" },
+          "200": { "value": "#FFFDE0", "status": "ok" },
+          "300": { "value": "#FFFBC2", "status": "ok" },
+          "400": { "value": "#FFF899", "status": "ok" },
+          "500": { "value": "#FFF570", "status": "ok" },
+          "600": { "value": "#FFDD00", "status": "ok" },
+          "700": { "value": "#FFCC00", "status": "ok" },
+          "800": { "value": "#FFBB00", "status": "ok" },
+          "900": { "value": "#FFAA00", "status": "ok" }
+        }
+      },
+      "amethyst_velvet": {
+        "base": { "value": "#7B4AAF", "figma_style": "A3Data/Amethyst Velvet", "usage": "Secondary accent purple", "status": "ok" },
+        "scale": {
+          "100": { "value": "#FAF7FD", "status": "ok" },
+          "200": { "value": "#F2EDFA", "status": "ok" },
+          "300": { "value": "#E8DEF6", "status": "ok" },
+          "400": { "value": "#D6C4EE", "status": "ok" },
+          "500": { "value": "#BD9EE2", "status": "ok" },
+          "600": { "value": "#A278D4", "status": "ok" },
+          "700": { "value": "#8C5BC2", "status": "ok" },
+          "800": { "value": "#643E8B", "status": "ok" },
+          "900": { "value": "#361B50", "status": "ok" }
+        }
+      },
+      "sky_frost": {
+        "base": { "value": "#39D0FF", "figma_style": "A3Data/Sky Frost", "usage": "Secondary accent cyan", "status": "ok" },
+        "scale": {
+          "100": { "value": "#DFF4FF", "status": "ok" },
+          "200": { "value": "#B8ECFF", "status": "ok" },
+          "300": { "value": "#78DEFF", "status": "ok" },
+          "400": { "value": "#06B8F1", "status": "ok" },
+          "500": { "value": "#0094CE", "status": "ok" },
+          "600": { "value": "#0077A7", "status": "ok" },
+          "700": { "value": "#02648A", "status": "ok" },
+          "800": { "value": "#085272", "status": "ok" },
+          "900": { "value": "#06344B", "status": "ok" }
+        }
+      }
+    },
+    "neutral": {
+      "gray": {
+        "100": { "value": "#EBEBEB", "figma_style": "A3Data/Gray 100", "status": "ok" },
+        "200": { "value": "#E0E0E0", "figma_style": "A3Data/Gray 200", "status": "ok" },
+        "300": { "value": "#E8DEF6", "figma_style": "A3Data/Gray 300", "status": "needs-review", "note": "Purple value (equals AV 300) inside the grayscale. Likely a copy error; confirm intended neutral hex." },
+        "400": { "value": "#B8B8B8", "figma_style": "A3Data/Gray 400", "status": "ok" },
+        "500": { "value": "#A3A3A3", "figma_style": "A3Data/Gray 500", "status": "ok" },
+        "600": { "value": "#8F8F8F", "figma_style": "A3Data/Gray 600", "status": "ok" },
+        "700": { "value": "#7A7A7A", "figma_style": "A3Data/Gray 700", "status": "ok" },
+        "800": { "value": "#525252", "figma_style": "A3Data/Gray 800", "status": "ok" },
+        "900": { "value": "#3D3D3D", "figma_style": "A3Data/Gray 900", "status": "ok" }
+      },
+      "off_white": { "value": "#F5F5F5", "figma_style": "A3Data/Off-White", "status": "ok" },
+      "branco": { "value": "#FFFFFF", "figma_style": "A3Data/Branco", "status": "ok" },
+      "preto": { "value": "needs-review", "figma_style": "A3Data/Preto", "status": "needs-review", "note": "A 'Preto' FILL style exists in the file but the exact hex was not shown in the documented swatches. Confirm value (candidates: #000029 / #1C1C1C)." }
+    },
+    "semantic": {
+      "positivo": {
+        "base": { "value": "#35B769", "figma_style": "A3Data/Positivo", "usage": "Success / positive", "status": "ok" },
+        "light": { "value": "#92E3B2", "figma_style": "A3Data/PTV Light", "status": "ok" },
+        "dark": { "value": "#217443", "figma_style": "A3Data/PTV Dark", "status": "ok" }
+      },
+      "negativo": {
+        "base": { "value": "#F91C1C", "figma_style": "A3Data/Negativo", "usage": "Danger / negative", "status": "ok" },
+        "light": { "value": "#FF5C5C", "figma_style": "A3Data/NTV Light", "status": "ok" },
+        "dark": { "value": "#AD0707", "figma_style": "A3Data/NTV Dark", "status": "ok" }
+      },
+      "atencao": {
+        "base": { "value": "#FF822E", "figma_style": "A3Data/Atenção", "usage": "Warning / attention", "status": "ok" },
+        "light": { "value": "#FFB371", "figma_style": "A3Data/ATC Light", "status": "ok" },
+        "dark": { "value": "#EF4C07", "figma_style": "A3Data/ATC Dark", "status": "ok" }
+      },
+      "info": { "value": "needs-review", "status": "needs-review", "note": "No explicit 'info' token in the manual. Sky Frost (#39D0FF) is a candidate but unconfirmed." }
+    },
+    "text": {
+      "on_light_background": { "value": "#00083D", "usage": "Default text color over light backgrounds", "status": "ok" },
+      "on_dark_background": { "value": "#F5F7FF", "usage": "Default text color over dark backgrounds", "status": "ok" },
+      "muted": { "value": "#A3A3A3", "status": "inferred", "note": "Inferred from Gray 500 used as the neutral mid value in divergent scales; not explicitly declared as a text token." }
+    },
+    "background": {
+      "light": { "value": "#F5F5F5", "usage": "Light theme background (Cor Background / BG)", "status": "ok" },
+      "dark": { "value": "#001863", "usage": "Dark theme background", "status": "ok" }
+    },
+    "powerbi_theme_palette": {
+      "description": "Ordered categorical palette to apply when starting a Power BI dashboard (section 07).",
+      "colors": [
+        { "slot": "Cor 1", "value": "#001863", "status": "ok" },
+        { "slot": "Cor 2", "value": "#516EE0", "status": "ok" },
+        { "slot": "Cor 3", "value": "#0033FF", "status": "ok" },
+        { "slot": "Cor 4", "value": "#ADD3FF", "status": "ok" },
+        { "slot": "Cor 5", "value": "#F53199", "status": "ok" },
+        { "slot": "Cor 6", "value": "#FFADD9", "status": "ok" },
+        { "slot": "Cor 7", "value": "#FFEE00", "status": "ok" },
+        { "slot": "Cor 8", "value": "#FFBB00", "status": "ok" }
+      ],
+      "divergent": {
+        "max": { "value": "#FFAA00", "status": "ok" },
+        "mid": { "value": "#A3A3A3", "status": "ok" },
+        "min": { "value": "#39D0FF", "status": "ok" }
+      },
+      "font_color": { "value": "#00083D", "status": "ok" },
+      "background": { "value": "#F5F5F5", "status": "ok" }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "source": "Figma REST API",
+  "endpoint": "GET /v1/files/LmV1BuT3zPufCKMOoCsbiM/nodes?ids=2:21",
+  "file_key": "LmV1BuT3zPufCKMOoCsbiM",
+  "node_id": "2:21",
+  "extracted_at": "2026-06-15",
+  "notes": "Node 2:21 is the A3Data Identity / DataViz manual. It documents brand, color, typography, iconography and chart patterns rather than an interactive UI component library. Items below reflect the visual patterns actually present in the manual. UI-app components (buttons, forms, modals) are not defined here.",
+  "patterns": {
+    "logo": {
+      "status": "ok",
+      "variants": [
+        { "name": "Marca principal - Fundo claro", "usage": "Main mark on light backgrounds" },
+        { "name": "Marca principal - Fundo escuro", "usage": "Main mark on dark backgrounds" },
+        { "name": "Variações", "usage": "Additional approved variations", "status": "needs-review", "note": "Exact variation list/specs not enumerated in extracted text." }
+      ],
+      "rules": [
+        "Use only the original brand files.",
+        "Do not alter, add to, or recreate the drawing or typography of the mark."
+      ]
+    },
+    "iconography": {
+      "status": "ok",
+      "library": "Phosphor Icons 2.1",
+      "style_observed": "Stroke / Regular weight (from component metadata 'Format=Stroke, Weight=Regular')",
+      "note": "Hundreds of Phosphor icon component sets are present in the file (communication, weather, maps, media, finance, people, security, education, etc.)."
+    },
+    "kpi_cards": {
+      "status": "ok",
+      "typography": {
+        "title": { "family": "Segoe UI Light", "weight": "Bold", "size_px": 9 },
+        "value": { "family": "DIN", "weight": "Normal", "size_px": 17 }
+      },
+      "states": "needs-review",
+      "note": "Card title/value typography is defined; explicit interaction states (hover/selected) are not declared."
+    },
+    "tables": {
+      "status": "ok",
+      "typography": {
+        "title": { "family": "Segoe UI", "weight": "Bold", "size_px": 14 },
+        "column_header": { "family": "Segoe UI", "weight": "Semibold", "size_px": 8 },
+        "value": { "family": "Segoe UI", "weight": "Normal", "size_px": 8 },
+        "total": { "family": "Segoe UI", "weight": "Bold", "size_px": 8 }
+      }
+    },
+    "charts": {
+      "status": "ok",
+      "documented_types": [
+        "Gráfico de linhas",
+        "Gráfico de colunas",
+        "Gráfico de colunas empilhadas",
+        "Gráfico de colunas e linhas",
+        "Gráfico de barras",
+        "Gráfico com positivo/negativo",
+        "Gráfico de pizza",
+        "Gráfico de rosca",
+        "Gráfico de dispersão",
+        "Gráfico de calor (heatmap)",
+        "Gráfico Sankey",
+        "Gráfico de mapa"
+      ],
+      "typography": {
+        "title": { "family": "Segoe UI", "weight": "Bold", "size_px": 10 },
+        "categories": { "family": "Segoe UI", "weight": "Normal", "size_px": 8 },
+        "legend": { "family": "Segoe UI", "weight": "Normal", "size_px": 8 },
+        "axis_x": { "family": "Segoe UI", "weight": "Normal", "size_px": 8 },
+        "axis_y": { "family": "Segoe UI", "weight": "Normal", "size_px": 8 },
+        "data_label": { "family": "DIN", "weight": "Normal", "size_px": 9 }
+      }
+    },
+    "buttons": { "status": "needs-review", "note": "No button component is defined in node 2:21 (identity/DataViz manual). The button instance seen in node 2731:3414 belongs to a different page and is not the source for this round." },
+    "forms": { "status": "needs-review", "note": "No form components defined in the identity manual." },
+    "navigation": { "status": "needs-review", "note": "No navigation components defined in the identity manual." },
+    "badges": { "status": "needs-review", "note": "No badge/tag components defined in the identity manual." },
+    "modals": { "status": "needs-review", "note": "No modal/overlay components defined in the identity manual." }
+  },
+  "radius": {
+    "status": "needs-review",
+    "note": "No named radius tokens are declared in the identity manual. Card/chart corner radii observed elsewhere (8/12/16px) come from other pages and are not authoritative for node 2:21."
+  },
+  "shadows": {
+    "status": "needs-review",
+    "note": "No elevation/shadow tokens are declared in the identity manual."
+  }
+}

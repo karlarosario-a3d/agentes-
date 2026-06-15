@@ -1,0 +1,43 @@
+﻿Personalização de Tema no Power BI: Diretrizes de Cores
+07
+Personalização BI
+DATAVIZ Guide
+© 2024 · A3DATA CONSULTORIA S/A.
+Para garantir uma apresentação visual uniforme, foram estabelecidas diretrizes específicas de cores. A seguir estão as principais cores que devem ser adotadas ao iniciar o desenvolvimento do dashboard no PowerBi:
+Cores do tema
+Cor 1  
+001863
+Cor 2 
+516EE0
+Cor 3 
+0033FF
+Cor 4  
+ADD3FF
+Cor 5 
+F53199
+Cor 6  
+FFADD9
+Cor 7 
+FFEE00
+Cor 8  
+FFBB00
+Cores de sentimento
+Positivo
+35B769
+Negativo
+F91C1C
+Atenção
+FF822E
+Texto
+Cor da fonte
+00083D
+Cores divergentes
+Máx
+FFAA00
+Meio
+A3A3A3
+Min
+39D0FF
+Cor Background
+BG
+F5F5F5

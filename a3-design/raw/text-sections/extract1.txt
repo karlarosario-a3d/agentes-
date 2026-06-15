@@ -1,0 +1,12 @@
+﻿=== COLORS ===
+=== TEXTS ===
+Label | Epilogue w500 12.0px lh=18.0 ls=0.0 align=CENTER | "Suas Pesquisas"
+Alocação: Contabilidade | Segoe UI w400 20.0px lh=16.0 ls=0.0 align=CENTER | "Alocação: Contabilidade"
+Glossário | Segoe UI w400 20.0px lh=16.0 ls=0.0 align=CENTER | "Glossário"
+Atualizado em: | Segoe UI w400 15.0px lh=19.9511718750 ls=0.750 align=LEFT | "Atualizado em:"
+Glossário | Segoe UI w700 32.0px lh=42.56250 ls=0.0 align=LEFT | "Glossário"
+=== RADII ===
+8.0px x2
+16.0px x2
+12.0px x1
+=== EFFECTS ===

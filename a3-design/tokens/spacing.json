@@ -1,0 +1,30 @@
+{
+  "source": "Figma REST API",
+  "endpoint": "GET /v1/files/LmV1BuT3zPufCKMOoCsbiM/nodes?ids=2:21",
+  "file_key": "LmV1BuT3zPufCKMOoCsbiM",
+  "node_id": "2:21",
+  "extracted_at": "2026-06-15",
+  "notes": "Section 'Espaçamento' (id 2367:1405) defines a base-8 spacing system. The legend explicitly lists 24px, 16px and 8px and instructs that any adapted measure must be a multiple of 8.",
+  "tokens": {
+    "base_unit": { "value": 8, "unit": "px", "rule": "All spacing must be a multiple of 8.", "status": "ok" },
+    "scale": {
+      "sm": { "value": 8, "unit": "px", "figma_legend": "8 px", "status": "ok" },
+      "md": { "value": 16, "unit": "px", "figma_legend": "16 px", "status": "ok" },
+      "lg": { "value": 24, "unit": "px", "figma_legend": "24 px", "status": "ok" },
+      "xs": { "value": "needs-review", "note": "Not explicitly defined in the legend; 4px is below the base-8 rule, so do not assume it.", "status": "needs-review" },
+      "xl": { "value": "needs-review", "note": "Not explicitly defined; extend in multiples of 8 (32, 40, ...) if needed and document it.", "status": "needs-review" }
+    },
+    "gaps_padding": {
+      "status": "needs-review",
+      "note": "Specific component gap/padding tokens are not declared as named tokens in the identity manual. Use the base-8 scale (8/16/24) for gaps and padding."
+    },
+    "grid": {
+      "status": "needs-review",
+      "note": "An explicit column grid (columns, gutter, margins) was not declared as numeric tokens in node 2:21. Composition is shown by example. Validate before assuming a grid."
+    },
+    "containers": {
+      "status": "needs-review",
+      "note": "No container max-width tokens were declared in the identity manual."
+    }
+  }
+}

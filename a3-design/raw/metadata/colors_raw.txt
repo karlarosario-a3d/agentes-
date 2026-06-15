@@ -1,0 +1,9 @@
+﻿#00083D  <- Glossário/fill
+#001863  <- Frame 7534/fill
+#1C1C1C  <- Conteined/Large/Normal/Text/Secondary/fill
+#2549B8  <- Conteined/Large/Normal/Text/Secondary/fill
+#ADC3FF  <- Vector/fill, Label/fill
+#EBEBEB  <- Atualizado em:/fill
+#F5F5F5  <- Frame 7606/fill
+#F5F7FF  <- Vector/fill, Vector/stroke, Alocação: Contabilidade/fill, Glossário/fill
+#FFFFFF  <- LOGO - A3DATA/fill, GlobeSimple/fill
