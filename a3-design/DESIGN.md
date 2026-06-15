@@ -1,4 +1,5 @@
 ---
+
 version: "0.1"
 name: "A3Data Design System"
 source: "Figma REST API"
@@ -8,132 +9,76 @@ node_id: "2:21"
 node_name: "Manual de Identidade / DataViz Guide"
 method: "Figma REST API (GET /v1/files/{key}/nodes?ids=2:21)"
 generated_at: "2026-06-15"
-status: "draft – derived from the A3Data DataViz manual; UI-app tokens partially needs-review"
-
-brand:
-  name: "A3Data"
-  description: "Data consultancy. Manual analyzed is the DataViz Guide focused on dashboards and data visualization."
-  visual_principles:
-    - "Clarity first: simplify complex information so patterns, trends and relationships are easy to read."
-    - "Clean and professional look using a sans-serif type system."
-    - "Consistent, standardized spacing and color to keep dashboards uncluttered."
-    - "Protect the brand mark: use only original logo files, never redraw or alter it."
+status: "draft"
+description: "A3Data visual language and DataViz design system derived from the DataViz Guide / Manual de Identidade. General web/product UI tokens are partially needs-review."
 
 colors:
-  primary:
-    deep_sea:
-      value: "#001863"
-      usage: "Institutional primary / dark background base"
-      source: "Figma REST API"
-    tech_blue:
-      value: "#0033FF"
-      usage: "Primary accent blue"
-      source: "Figma REST API"
-    pink_nic:
-      value: "#F53199"
-      usage: "Primary accent magenta/pink"
-      source: "Figma REST API"
-  secondary:
-    summer_time:
-      value: "#FFEE00"
-      usage: "Secondary accent yellow"
-      source: "Figma REST API"
-    amethyst_velvet:
-      value: "#7B4AAF"
-      usage: "Secondary accent purple"
-      source: "Figma REST API"
-    sky_frost:
-      value: "#39D0FF"
-      usage: "Secondary accent cyan"
-      source: "Figma REST API"
-  background:
-    light:
-      value: "#F5F5F5"
-      usage: "Light theme background (Cor Background / BG)"
-      source: "Figma REST API"
-    dark:
-      value: "#001863"
-      usage: "Dark theme background"
-      source: "Figma REST API"
-  surface:
-    value: "#FFFFFF"
-    usage: "Cards/surfaces over light backgrounds (inferred from Branco token)"
-    source: "Figma REST API (inferred)"
-  text:
-    primary: "#00083D"        # on light backgrounds
-    secondary: "#F5F7FF"      # on dark backgrounds
-    muted: "#A3A3A3"          # inferred from Gray 500
-  border:
-    default: "#EBEBEB"        # Gray 100; inferred as default divider/border
-  semantic:
-    success: "#35B769"        # Positivo
-    warning: "#FF822E"        # Atenção
-    danger: "#F91C1C"         # Negativo
-    info: "needs-review"      # No explicit info token; Sky Frost #39D0FF is a candidate
+  primary: "#001863"
+  secondary: "#0033FF"
+  accent: "#F53199"
+  deep-sea: "#001863"
+  tech-blue: "#0033FF"
+  pink-nic: "#F53199"
+  summer-time: "#FFEE00"
+  amethyst-velvet: "#7B4AAF"
+  sky-frost: "#39D0FF"
+  background-light: "#F5F5F5"
+  background-dark: "#001863"
+  surface: "#FFFFFF"
+  text-on-light: "#00083D"
+  text-on-dark: "#F5F7FF"
+  muted: "#A3A3A3"
+  border-default: "#EBEBEB"
+  success: "#35B769"
+  success-light: "#92E3B2"
+  success-dark: "#217443"
+  danger: "#F91C1C"
+  danger-light: "#FF5C5C"
+  danger-dark: "#AD0707"
+  warning: "#FF822E"
+  warning-light: "#FFB371"
+  warning-dark: "#EF4C07"
+  powerbi-1: "#001863"
+  powerbi-2: "#516EE0"
+  powerbi-3: "#0033FF"
+  powerbi-4: "#ADD3FF"
+  powerbi-5: "#F53199"
+  powerbi-6: "#FFADD9"
+  powerbi-7: "#FFEE00"
+  powerbi-8: "#FFBB00"
+  divergent-max: "#FFAA00"
+  divergent-mid: "#A3A3A3"
+  divergent-min: "#39D0FF"
 
 typography:
-  font_family:
-    primary: "Segoe UI"
-    secondary: "Segoe UI Light"
-    data_labels: "DIN"
-  headings:
-    dashboard_title: "Segoe UI, Bold, 11px"
-    chart_title: "Segoe UI, Bold, 10px"
-    table_title: "Segoe UI, Bold, 14px"
-    h1: "needs-review"   # general web/product scale not defined in manual
-    h2: "needs-review"
-    h3: "needs-review"
-  body:
-    default: "needs-review"   # general body scale not defined in manual
-    small: "Segoe UI, Normal, 8px"   # chart categories/legends/axes
-  labels:
-    card_value: "DIN, Normal, 17px"
-    data_label: "DIN, Normal, 9px"
-    table_column_header: "Segoe UI, Semibold, 8px"
+  primary-font: "Segoe UI"
+  secondary-font: "Segoe UI Light"
+  data-font: "DIN"
+  dashboard-title: "Segoe UI Bold 11px"
+  card-title: "Segoe UI Light Bold 9px"
+  card-value: "DIN Normal 17px"
+  chart-title: "Segoe UI Bold 10px"
+  chart-label: "DIN Normal 9px"
+  table-title: "Segoe UI Bold 14px"
+  table-header: "Segoe UI Semibold 8px"
+  table-value: "Segoe UI Normal 8px"
 
 spacing:
-  base_unit: "8px"
-  rule: "Every spacing value must be a multiple of 8."
-  scale:
-    xs: "needs-review"   # below base-8; not defined
-    sm: "8px"
-    md: "16px"
-    lg: "24px"
-    xl: "needs-review"   # extend in multiples of 8 (32, 40...) and document
+  base-unit: "8px"
+  sm: "8px"
+  md: "16px"
+  lg: "24px"
 
-radius:
-  sm: "needs-review"
-  md: "needs-review"
-  lg: "needs-review"
+rounded:
   full: "999px"
-
-shadows:
-  sm: "needs-review"
-  md: "needs-review"
-  lg: "needs-review"
-
-components:
-  buttons: "needs-review"      # not defined in node 2:21
-  cards: "kpi cards documented (title + value typography); states needs-review"
-  forms: "needs-review"
-  tables: "documented (title/header/value/total typography)"
-  navigation: "needs-review"
-  badges: "needs-review"
-  modals: "needs-review"
-
-data_visualization:
-  kpi_cards: "Title Segoe UI Light Bold 9px; Value DIN Normal 17px"
-  charts: "12 chart types documented; categorical palette + divergent scale defined"
-  tables: "Title 14px Bold; column header 8px Semibold; values 8px Normal; total 8px Bold"
-  heatmaps: "documented as 'Gráfico de Calor'; use divergent scale (max/mid/min)"
-  tooltips: "needs-review"
 
 ai_rules:
   - "Use this DESIGN.md as the visual source of truth before implementing UI."
   - "Do not introduce new colors, typography or spacing without documenting the reason."
   - "If Figma and code diverge, report the divergence before changing implementation."
   - "When a token is marked as needs-review, ask for validation or preserve the closest existing implementation."
-  - "This manual targets data visualization (Power BI). For general web/product UI, treat undefined scales as needs-review."
+  - "This manual targets data visualization and Power BI. For general web/product UI, treat undefined scales as needs-review."
+
 ---
 
 # A3Data Design System
